@@ -18,9 +18,17 @@ public class CalculadoraTest {
     /**
      *
      */
+   @Test
+    public void testSuma(){
+         int resultado=Calculadora.suma(2,3);
+         int esperado=5; // 2 + 3 = 5
+         assertEquals(esperado,resultado);
+    } 
     @Test
-    public void CalculadoraTest() {
-        fail("Función no implementada aún");
-    }
-    
+    public void testResta(){
+         int resultado=Calculadora.resta(3,2);
+         int esperado=1; // 3 - 2 = 1
+         assertEquals(esperado,resultado);
+    } 
 }
+    
