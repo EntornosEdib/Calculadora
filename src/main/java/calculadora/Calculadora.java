@@ -33,7 +33,7 @@ public static final String newLine = System.getProperty("line.separator");
         return a/b;
     }
     public static void main(String args[]){
-        int a=3;
+        int a=2;
         int b=2;
         int res = suma(a,b);
         int esperado=5;
