@@ -25,7 +25,7 @@ public class Calculadora {
     public static void main(String args[]){
         int a=3;
         int b=2;
-        int res = suma(a,b);
-        System.out.println("3 + 2 = 5");
+        int res = multiplica(a,b);
+        System.out.println("3 x 2 = 6");
     }
 }
