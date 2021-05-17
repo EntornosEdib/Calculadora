@@ -1,7 +1,12 @@
 package calculadora;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
+//Junit 4
+//import org.junit.jupiter.api.Test;
+//junit 5
+import org.junit.Test;
+//junit 4
+//import static org.junit.jupiter.api.Assertions.*;
+//junit 5
+import static org.junit.Assert.*;
 public class CalculadoraTest {
    @Test
     public void testSuma(){
